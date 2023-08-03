@@ -1,11 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Header from "./component/Header";
 
 function App() {
   return (
     <div className="App">
-      <header>this is header</header>
-      <p>Faisal Akram Header Task</p>
+      <Header />
     </div>
   );
 }
