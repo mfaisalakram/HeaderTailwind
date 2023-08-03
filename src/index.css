@@ -14,3 +14,64 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.section {
+  height: 0 !important;
+  opacity: 0 !important;
+  transition: all 1s ease-in-out !important;
+}
+
+.hide {
+  height: 0 !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+}
+.show-units {
+  height: 155px !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  @media (max-width: 767.98px) {
+    height: 420px !important;
+  }
+}
+.show-all-categories {
+  height: 105px !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  @media (max-width: 575.98px) {
+    height: 160px !important;
+  }
+}
+.show-all-attributes {
+  height: 105px !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  @media (max-width: 767.98px) {
+    height: 160px !important;
+  }
+  @media (max-width: 575.98px) {
+    height: 225px !important;
+  }
+}
+.show-make-payment {
+  height: 215px !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  @media (max-width: 767.98px) {
+    height: 310px !important;
+  }
+  @media (max-width: 575.98px) {
+    height: 460px !important;
+  }
+}
+.show-congfigrations {
+  height: 160px !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  @media (max-width: 767.98px) {
+    height: 195px !important;
+  }
+  @media (max-width: 575.98px) {
+    height: 330px !important;
+  }
+}
