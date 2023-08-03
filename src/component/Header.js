@@ -1,13 +1,10 @@
 import React from "react";
-
+import mainImage from "../assets/main.png";
 const Header = () => {
   return (
-    <header className="bg-blue-500 p-4 flex items-center justify-between">
+    <header className="p-4 flex items-center justify-between border shadow-sm">
       <div className="flex items-center">
-        {/* Your logo image */}
-        <img src={"../assets/logo.png"} alt="Logo" className="w-12 h-12 mr-4" />
-
-        {/* Your search bar */}
+        <img src={mainImage} alt="Logo" className="w-12 h-12 mr-4" />
         <input
           type="text"
           placeholder="Search"
@@ -15,7 +12,6 @@ const Header = () => {
         />
       </div>
 
-      {/* Your menu icon */}
       <button className="text-white p-2">
         <svg
           xmlns="http://www.w3.org/2000/svg"
